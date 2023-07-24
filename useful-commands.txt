@@ -1,0 +1,14 @@
+conda activate rlbook
+
+tensorboard --logdir runs
+
+don't have line 18, in <module>
+    'ale_interface/ale_c.dll')) ? try atari_py
+conda install -c conda-forge atari_py
+
+conda install pytorch==1.7 torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
+try a more updated one:
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
+
+my cuda: 
